@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<style>
+* {
+  box-sizing: border-box;
+}
+.row {
+
+  display: flex;
+
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+.column {
+
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  .column {
+
+  flex: 33%;
+  max-width: 33%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .column {
+
+  flex: 50%;
+  max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+
+  flex: 100%;
+  max-width: 100%;
+  }
+}
+
+</style>
+<body>
+
+
+<div class="row">
+  <div class="column">
+    <img src="https://s3.reutersmedia.net/resources/r/?m=02&d=20211008&t=2&i=1577296446&w=780&fh=&fw=&ll=&pl=&sq=&r=2021-10-08T223610Z_42074_MRPRC2V1Q9II8U3_RTRMADP_0_SPAIN-VOLCANO" style="width:100%">
+    <img src="https://www.canberratimes.com.au/images/transform/v1/crop/frm/silverstone-feed-data/cea464ec-5bd5-4567-9df0-d1cfb0d7bd2d.jpg/r0_0_800_600_w1200_h678_fmax.jpg" style="width:100%">
+
+  </div>
+  <div class="column">
+    <img src="https://akm-img-a-in.tosshub.com/indiatoday/styles/photo_slider_753x543/public/images/photogallery/202109/AP21271193819362_IT_1632809757489.jpg?JQEhkH0QXaMUPtPK4i6gPGM_ErpU6Uvi" style="width:100%">
+    <img src="https://i2-prod.mirror.co.uk/incoming/article25090153.ece/ALTERNATES/n615/0_Eruption-of-a-volcano-in-La-Palma.jpg" style="width:100%">
+
+    <img src="https://www.sciencenewsforstudents.org/wp-content/uploads/2020/10/1030_LEM_fire_sensor-1028x579.jpg" style="width:100%">
+
+  </div>
+  <div class="column">
+    <img src="https://c4.wallpaperflare.com/wallpaper/441/783/665/fire-man-hd-4k-wallpaper-preview.jpg" style="width:100%">
+    <img src="https://c0.wallpaperflare.com/preview/340/415/749/wild-fire-wildfire-jungle.jpg" style="width:100%">
+
+  </div>
+  <div class="column">
+    <img src="https://s.hdnux.com/photos/01/21/02/70/21245453/6/ratio3x2_1800.jpg" style="width:100%">
+    <img src="https://static01.nyt.com/images/2017/06/20/world/20portugal1/20portugal1-superJumbo.jpg" style="width:100%">
+
+
+  </div>
+</div>
+
+</body>
+</html>
